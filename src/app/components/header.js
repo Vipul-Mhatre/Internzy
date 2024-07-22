@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "@/app/styles/navbar.module.css";
 import Link from 'next/link';
 import Image from 'next/image'; // Import the Image component
+import Nav from './navbar';
 
 const Header = () => {
   return (
@@ -11,11 +12,7 @@ const Header = () => {
           <Image src="/Suvidhalogo" alt="logo" width={150} height={50} /> {/* Use Image component */}
         </Link>
       </div>
-      <nav>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-      </nav>
+<Nav/>
     </header>
   );
 };
