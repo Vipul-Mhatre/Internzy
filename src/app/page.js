@@ -2,7 +2,9 @@ import React from "react";
 
 const Page=()=>{
   return(
-<h1>Internzy</h1>
+<div>
+  {/* <Hero/> */}
+</div>
   );
 };
 

@@ -19,20 +19,26 @@ const Nav = () => {
                             >Home</Link>
                         </li>
                         <li className={styles.navbarItem}>
-                            <Link className={styles.navbarLink} href="/about"
+                            <Link className={styles.navbarLink} href="internships"
                                   onClick={() => setOpenMenu(false)}
-                            >About</Link>
+                            >Internships</Link>
                         </li>
                         <li className={styles.navbarItem}>
-                            <Link className={styles.navbarLink}
+                            <Link className={styles.navbarLink} href="/jobs"
                                   onClick={() => setOpenMenu(false)}
-                                  href="/movie">Movie</Link>
+                            >Jobs</Link>
                         </li>
                         <li className={styles.navbarItem}>
                             <Link className={styles.navbarLink}
                                   onClick={() => setOpenMenu(false)}
                                   href="/contact">Contact</Link>
                         </li>
+                        <li className={styles.navbarItem}>
+                            <Link className={styles.navbarLink}
+                                  onClick={() => setOpenMenu(false)}
+                                  href="/profile">Profile</Link>
+                        </li>
+
                     </ul>
 
                     {/* //nav icon */}
