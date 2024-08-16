@@ -41,10 +41,12 @@ const Hero = () => {
           flex-direction: column;
           padding: 20px;
         }
+        
         .content {
           text-align: center;
           margin-bottom: 20px;
         }
+        
         .btn {
           padding: 10px 20px;
           background-color: #0070f3;
@@ -56,12 +58,14 @@ const Hero = () => {
         .btn:hover {
           background-color: #005bb5;
         }
+        
         .cards {
           display: flex;
           justify-content: space-around;
           width: 100%;
           max-width: 1200px;
         }
+        
         .card {
           background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
           border-radius: 10px;
@@ -72,18 +76,22 @@ const Hero = () => {
           text-align: left;
           transition: transform 0.3s ease;
         }
+        
         .card:hover {
           transform: translateY(-5px);
         }
+        
         .card h2 {
           font-size: 1.5rem;
           margin-bottom: 10px;
         }
+        
         .card p {
           font-size: 1rem;
           margin-bottom: 15px;
           color: #555;
         }
+        
         .card-btn {
           padding: 10px 15px;
           background-color: #0070f3;
@@ -92,9 +100,11 @@ const Hero = () => {
           text-decoration: none;
           font-weight: bold;
         }
+        
         .card-btn:hover {
           background-color: #005bb5;
         }
+        
       `}</style>
     </section>
   );
